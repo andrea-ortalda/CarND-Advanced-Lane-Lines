@@ -106,7 +106,7 @@ he pipeline described at the beginning is now used to process the test video and
 
 Here is the final video output
 
-![alt text][image9]
+![alt text][video1]
 
 ---
 
