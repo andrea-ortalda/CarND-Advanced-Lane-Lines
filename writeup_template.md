@@ -102,14 +102,6 @@ he pipeline described at the beginning is now used to process the test video and
 
 ---
 
-### Pipeline (video)
-
-Here is the final video output
-
-![alt text][video1]
-
----
-
 ### Discussion
 
 Even with the coination of sobel threshold and S channel one, he line detection is reacting with difficult with extreme conditions, like sudden change in the brightness due to tunnel exiting with sun. Weather conditions are then impacting the chain. 
