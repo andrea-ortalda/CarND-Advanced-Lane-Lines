@@ -1,10 +1,6 @@
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
-
----
-
 **Advanced Lane Finding Project**
+
+![alt text][image0]
 
 The goals / steps of this project are the following:
 
@@ -108,7 +104,9 @@ he pipeline described at the beginning is now used to process the test video and
 
 ### Pipeline (video)
 
-Here is the final video output (./project_video.mp4)
+Here is the final video output
+
+![alt text][image9]
 
 ---
 
