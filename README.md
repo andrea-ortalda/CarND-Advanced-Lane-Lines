@@ -55,8 +55,7 @@ Now that the calibration matrix is available, it is possible to apply it also to
 ![alt text][image2]
 
 #### 2. Use color transforms, gradients, etc., to create a thresholded binary image
-
-In order to create a satisfying thresholded binary image, color and gradient thresholding are combined. That is because color thresholds (using HLS space) help to detect lane lines of different colors and under different lighting conditions. Gradient thresholds are useful to focus on pixels that are likely to be part of the lane lines. It is possible then to create a binary combination of two different thresholded images to map out where either the color or gradient thresholds were met. (cell 6-7)
+In order to create a satisfying thresholded binary image, color thresholding on the s channel is created. That is because color thresholds (using HLS space) help to detect lane lines of different colors and under different lighting conditions. It is possible then to mask the image in order to extract the information needed. (cell 6-7)
 
 ![alt text][image3]
 
